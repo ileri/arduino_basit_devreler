@@ -11,7 +11,7 @@ char tuslar[SATIRLAR][SUTUNLAR] = {
   {'*','0','#'},
 };
 byte satirPinleri[SATIRLAR] = {9,8,7,6};
-byte sutunPinleri[SUTUNLAR] = {12,11,10};
+byte sutunPinleri[SUTUNLAR] = {5,4,3};
 Keypad tusTakimi = Keypad( 
   makeKeymap(tuslar), 
   satirPinleri, sutunPinleri,
